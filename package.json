@@ -1,0 +1,37 @@
+{
+  "name": "athena2-test",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "",
+    "lint": "eslint ./src/",
+    "lint:fix": "eslint ./src/ --fix",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "bootstrap": "3",
+    "jquery": "1.12",
+    "my-webpack-jquery": "^1.0.0",
+    "nervjs": "^1.2.8",
+    "react-bootstrap": "^1.0.0-beta.8"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.16.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-config-standard-jsx": "^4.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.3.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.0"
+  }
+}
