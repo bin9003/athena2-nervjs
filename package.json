@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "bootstrap": "3",
-    "jquery": "1.12",
+    "jquery": "3.5",
     "my-webpack-jquery": "^1.0.0",
     "nervjs": "^1.2.8",
     "react-bootstrap": "^1.0.0-beta.8"
